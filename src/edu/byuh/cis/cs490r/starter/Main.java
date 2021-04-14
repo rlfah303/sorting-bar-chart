@@ -1,26 +1,20 @@
 package edu.byuh.cis.cs490r.starter;
 
-import java.awt.List;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.sql.*;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.*;
 import javax.swing.*;
-import javax.swing.Timer;
 import javax.swing.filechooser.FileSystemView;
 import javax.swing.JOptionPane;
-import java.awt.Component;
+
 
 public class Main extends JFrame {
 
     private Vis mainPanel;
     private ArrayList<Integer> gim;
     private ArrayList<Integer> dummy;
-    File ff;
     final int speed;
     int heapSize;
     long startTime;
@@ -34,7 +28,6 @@ public class Main extends JFrame {
 
         mainPanel = new Vis();
         setContentPane(mainPanel);
-        ff =null;
         setSize(800,600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Put the title of your program here");
@@ -82,13 +75,6 @@ public class Main extends JFrame {
             repaint();
 
         });
-//        item0.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-////                mainPanel.setBarChart();
-//
-//            }
-//        });
         item1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -939,18 +925,6 @@ public class Main extends JFrame {
             }
         }
     }
-
-
-
-    // The main function to that sorts arr[] of size n using
-    // Radix Sort
-
-
-
-
-    //    Collections.swap(mainPanel.gilmo, j - 1, j);
-//    mainPanel.update(mainPanel.getGraphics());
-//    setTimer(speed);
     public static void main(String[] args) {
 
         javax.swing.SwingUtilities.invokeLater(new Runnable() {

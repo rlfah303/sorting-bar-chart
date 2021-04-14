@@ -3,12 +3,10 @@ package edu.byuh.cis.cs490r.starter;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 import javax.swing.*;
-import java.awt.Component;
+
 
 
 public class Vis extends JPanel {
@@ -17,7 +15,6 @@ public class Vis extends JPanel {
     public ArrayList<Integer> gilmo;
     private ArrayList<ArrayList> result;
     private boolean start;
-    ActionListener sorting;
     private final int h;
     private final int w;
     int count;
