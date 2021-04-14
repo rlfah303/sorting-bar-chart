@@ -36,6 +36,7 @@ Software Engineer<br/>
 <br/>
 2. 원하는 정렬 알고리즘을 선택한다
 <br/>
+<br/>
 3. 숫자들의 정렬이 실시간으로 시각화 되고 실행 시간까지 확인이 가능하다
 <img width="798" alt="22" src="https://user-images.githubusercontent.com/59432666/114641602-22da4e80-9c6e-11eb-9a3c-f7587ab65d24.png">
 
