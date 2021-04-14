@@ -13,7 +13,7 @@
 ### <p align="center" style="text-decoration:underline">About Developer</p>
 
 **<p align="center" style="font-size:15pt">김길모</p>**
-<p align="center">:palm_tree: kjunha77@gmail.com </p>
+<p align="center">:palm_tree: https://www.linkedin.com/in/gilmogim/ </p>
 <p align="center">
 Brigham Young University - Hawaii<br/>
 Software Engineer<br/>
