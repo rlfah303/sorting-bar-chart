@@ -33,7 +33,6 @@ Software Engineer<br/>
 ## :page_with_curl: Instructions
 1. 정렬하고 싶은 숫자가 담긴 인풋파일을 선택한다
 <img width="796" alt="11" src="https://user-images.githubusercontent.com/59432666/114641576-148c3280-9c6e-11eb-8ecf-b27850e3d206.png">
-<br/>
 2. 원하는 정렬 알고리즘을 선택한다
 <br/>
 <br/>
