@@ -12,6 +12,7 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.Timer;
 import javax.swing.filechooser.FileSystemView;
+import javax.swing.JOptionPane;
 import java.awt.Component;
 
 public class Main extends JFrame {
@@ -22,6 +23,9 @@ public class Main extends JFrame {
     File ff;
     final int speed;
     int heapSize;
+    long startTime;
+    long endTime;
+    long timeElapsed;
 
     public Main() {
 
@@ -37,7 +41,7 @@ public class Main extends JFrame {
         setVisible(true);
         gim = new ArrayList<>();
         dummy = new ArrayList<>();
-        speed = 5;
+        speed = 10;
     }
 
 
@@ -91,7 +95,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 bubble();
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
 
             }
         });
@@ -101,7 +110,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 insertion();
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item3.addActionListener(new ActionListener() {
@@ -110,7 +124,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 selection();
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item4.addActionListener(new ActionListener() {
@@ -119,7 +138,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 quickSort(0,gim.size()-1);
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item5.addActionListener(new ActionListener() {
@@ -128,7 +152,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 merge_sort(0,gim.size()-1);
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item6.addActionListener(new ActionListener() {
@@ -137,7 +166,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 heapSort();
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item7.addActionListener(new ActionListener() {
@@ -146,7 +180,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 countSort(gim.size());
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item8.addActionListener(new ActionListener() {
@@ -155,7 +194,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 shell();
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item9.addActionListener(new ActionListener() {
@@ -164,7 +208,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 stoogeSort(mainPanel.gilmo, 0, gim.size()-1);
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item10.addActionListener(new ActionListener() {
@@ -173,7 +222,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 cocktailSort();
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
             }
         });
         item11.addActionListener(new ActionListener() {
@@ -182,7 +236,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 combSort();
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
 
             }
         });
@@ -192,7 +251,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 gnomeSort(mainPanel.gilmo,mainPanel.gilmo.size());
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
 
             }
         });
@@ -202,7 +266,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 pancakeSort(mainPanel.gilmo,mainPanel.gilmo.size());
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
 
             }
         });
@@ -212,7 +281,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 radixsort(mainPanel.gilmo,mainPanel.gilmo.size());
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
 
             }
         });
@@ -222,7 +296,12 @@ public class Main extends JFrame {
                 resetGim();
                 mainPanel.setStart(gim);
                 mainPanel.repaint();
+                startTime = System.nanoTime();
                 cycleSort(mainPanel.gilmo,mainPanel.gilmo.size());
+                endTime = System.nanoTime();
+                timeElapsed = (endTime - startTime)/10000000;
+                JOptionPane.showMessageDialog(null,timeElapsed*0.01+" seconds");
+                System.out.println("Time spent: "+timeElapsed*0.01);
 
             }
         });
