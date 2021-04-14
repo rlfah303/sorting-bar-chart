@@ -18,16 +18,18 @@
 Brigham Young University - Hawaii<br/>
 Software Engineer<br/>
 </p>
+<br/>
 
 ## :hammer_and_wrench: System Requirement
 > + Java [[Download](https://www.java.com/en/download/manual.jsp)]
 > + IntelliJ [[Download](https://www.jetbrains.com/idea/download)] (you may use other editors)
 
 
-
+<br/>
 ## :foggy: Background
 여러 문제를 해결하는데에 여러가지 정렬 알고리즘이 사용되고 그 효율성 또한 다르다. 이 프로그램을 통해서 실제로 어떤 알고리즘이 효과적이고 빠른지, 또한 어떤 것이 가장 느린지 등 이론이 아닌 실제 알고리즘이
 작동되는 시각화를 통해서 알수 있도록 하기위해서 개발을 하게 되었습니다.
+<br/>
 
 ## :page_with_curl: Instructions
 1. 정렬하고 싶은 숫자가 담긴 인풋파일을 선택한다
