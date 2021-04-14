@@ -73,10 +73,11 @@ public class Vis extends JPanel {
             x = xSpacing;
 
             for (var v : gilmo) {
+                g.setColor(Color.BLACK);
                 g.drawString(v.toString(), (w / howManyBars) * x_count + (w / 14), h - (h / 18));
                 double barHeight = (int)v *h/120;
                 //barHeight = barHeight * 0.84;
-                g.setColor(Color.BLACK);
+                g.setColor(Color.BLUE);
                 g.fillRect((w / howManyBars) * x_count + (w / 17), h - (int) barHeight - (h / 12), w / 2 / howManyBars, (int) barHeight);
                 x += xSpacing;
                 x_count++;
