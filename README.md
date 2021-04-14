@@ -17,4 +17,11 @@ Software Engineer<br/>
 
 ## :hammer_and_wrench: System Requirement
 > + Java [[Download](https://www.java.com/en/download/manual.jsp)]
-> + IntelliJ [[Download](https://www.jetbrains.com/idea/download)]
+> + IntelliJ [[Download](https://www.jetbrains.com/idea/download)] (you may use other editors)
+
+
+
+## :foggy: Background
+
+## :page_with_curl: Instructions
+
