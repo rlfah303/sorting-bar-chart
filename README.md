@@ -1,4 +1,5 @@
-![sorting](https://user-images.githubusercontent.com/59432666/114641558-09d19d80-9c6e-11eb-8b80-e22176c40ff9.png)
+<img width="1436" alt="0" src="https://user-images.githubusercontent.com/59432666/114642696-093a0680-9c70-11eb-8663-d42a76776a7f.png">
+
 
 
 # <p align="center">Sorting Alorithms</p>
@@ -32,10 +33,13 @@ Software Engineer<br/>
 
 ## :page_with_curl: Instructions
 1. 정렬하고 싶은 숫자가 담긴 인풋파일을 선택한다
-<img width="796" alt="11" src="https://user-images.githubusercontent.com/59432666/114641576-148c3280-9c6e-11eb-8ecf-b27850e3d206.png">
+<img width="798" alt="1" src="https://user-images.githubusercontent.com/59432666/114642718-1ce56d00-9c70-11eb-8d39-f9ca653a1a4d.png">
+
 2. 원하는 정렬 알고리즘을 선택한다
-<br/>
+<img width="799" alt="2" src="https://user-images.githubusercontent.com/59432666/114642729-21118a80-9c70-11eb-9ce2-851bc82f36bc.png">
+
 3. 숫자들의 정렬이 실시간으로 시각화 되고 실행 시간까지 확인이 가능하다
-<img width="798" alt="22" src="https://user-images.githubusercontent.com/59432666/114641602-22da4e80-9c6e-11eb-9a3c-f7587ab65d24.png">
+<img width="796" alt="3" src="https://user-images.githubusercontent.com/59432666/114642741-25d63e80-9c70-11eb-8416-4ae35235d8c1.png">
+
 
 
