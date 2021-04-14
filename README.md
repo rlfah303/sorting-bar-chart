@@ -1,1 +1,1 @@
-# sorting-bar-chart
+# <p align="center">Sorting Alorithms</p>
