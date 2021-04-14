@@ -1,4 +1,4 @@
-<img width="1436" alt="0" src="https://user-images.githubusercontent.com/59432666/114642696-093a0680-9c70-11eb-8663-d42a76776a7f.png">
+![0](https://user-images.githubusercontent.com/59432666/114687547-981a4380-9caf-11eb-8974-43683b06dbed.jpg)
 
 
 
@@ -33,13 +33,16 @@ Software Engineer<br/>
 
 ## :page_with_curl: Instructions
 1. 정렬하고 싶은 숫자가 담긴 인풋파일을 선택한다
-<img width="798" alt="1" src="https://user-images.githubusercontent.com/59432666/114642718-1ce56d00-9c70-11eb-8d39-f9ca653a1a4d.png">
+![1](https://user-images.githubusercontent.com/59432666/114687576-9e102480-9caf-11eb-84ff-1c95cb248344.jpg)
+
 
 2. 원하는 정렬 알고리즘을 선택한다
-<img width="799" alt="2" src="https://user-images.githubusercontent.com/59432666/114642729-21118a80-9c70-11eb-9ce2-851bc82f36bc.png">
+![2](https://user-images.githubusercontent.com/59432666/114687623-a8322300-9caf-11eb-8741-db5bccf92422.jpg)
+
 
 3. 숫자들의 정렬이 실시간으로 시각화 되고 실행 시간까지 확인이 가능하다
-<img width="796" alt="3" src="https://user-images.githubusercontent.com/59432666/114642741-25d63e80-9c70-11eb-8416-4ae35235d8c1.png">
+![3](https://user-images.githubusercontent.com/59432666/114687664-b122f480-9caf-11eb-8a81-7ec3e539e40c.jpg)
+
 
 
 
